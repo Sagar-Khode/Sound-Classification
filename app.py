@@ -11,6 +11,7 @@ import librosa.display
 import random
 from IPython.display import clear_output, display
 import matplotlib.pyplot as plt
+import soundfile as sf
 
 os.system('!sudo apt-get install libsndfile1')
 
