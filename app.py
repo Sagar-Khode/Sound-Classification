@@ -1,5 +1,4 @@
 import os
-os.system('!sudo apt-get install libsndfile1-dev')
 
 import streamlit as st
 
@@ -28,10 +27,10 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("https://pixabay.com/get/g8fe8d8f68abf37b0d863287bc8443c1d861c7cdc92838c135cf4d4a4fa9d06e89e1afe525e149db59d349139dd434113a79599beea583370c1aa0b931492bae3420da6d7861f7d8f0426dda5052218a3_1920.jpg?attachment=")
+        background: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366")
     }
    .sidebar .sidebar-content {
-        background: url("https://pixabay.com/get/g8fe8d8f68abf37b0d863287bc8443c1d861c7cdc92838c135cf4d4a4fa9d06e89e1afe525e149db59d349139dd434113a79599beea583370c1aa0b931492bae3420da6d7861f7d8f0426dda5052218a3_1920.jpg?attachment=")
+        background: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366")
     }
     </style>
     """,
