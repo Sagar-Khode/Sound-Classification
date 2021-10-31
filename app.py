@@ -1,5 +1,5 @@
 import os
-os.system('!sudo apt-get install libsndfile1')
+os.system('!sudo apt-get install libsndfile1-dev')
 
 import streamlit as st
 
