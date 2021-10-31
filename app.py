@@ -12,7 +12,9 @@ import random
 from IPython.display import clear_output, display
 import matplotlib.pyplot as plt
 
-!sudo apt-get install libsndfile1
+os.system('!sudo apt-get install libsndfile1')
+
+
 
 
 model = load_model("model_CNN.hdf5")
