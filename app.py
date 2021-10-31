@@ -1,3 +1,5 @@
+import os
+os.system('!sudo apt-get install libsndfile1')
 
 import streamlit as st
 
@@ -8,8 +10,7 @@ from pydub import AudioSegment
 import pandas as pd
 import numpy as np
 from tensorflow.keras.models import load_model
-import os
-os.system('!sudo apt-get install libsndfile1')
+
 import librosa
 import librosa.display
 import random
