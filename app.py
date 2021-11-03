@@ -42,7 +42,7 @@ st.markdown(
     unsafe_allow_html=True)
 
 
-radio = st.sidebar.radio("Select format of audio file", options=['mp3', 'wav'])
+radio = st.sidebar.radio("Select format of audio file", options=['wav'])
 
 if radio == 'wav':
 
